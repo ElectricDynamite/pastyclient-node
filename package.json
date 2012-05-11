@@ -1,0 +1,14 @@
+{ 
+  "name" :              "pastyclient-node",
+  "description" :       "A Pasty (http://www.pastyapp.org/) client library for node.js",
+  "keywords" :          ["Pasty", "clipboard", "cloud clipboard", "webservice", "REST"],
+  "version" :           "0.1.0",
+  "author" :            "Philipp Geschke <electricdynamite.apps@gmail.com>",
+  "repository" :        { "type" : "git", 
+                          "url" : "http://git://github.com/ElectricDynamite/pastyclient-node.git" },
+  "bugs" :              { "mail" : "electricdynamite.apps@gmail.com",
+                          "url" : "http://github.com/ElectricDynamite/pastyclient-node/issues" }
+  "main" :              "./lib/index",
+  "licenses" :          [ { "type" : "Apache License, Version 2.0",
+                            "url" : "http://www.apache.org/licenses/LICENSE-2.0" } ]
+}
