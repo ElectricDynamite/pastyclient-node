@@ -4,10 +4,13 @@
   "keywords" :          ["Pasty", "clipboard", "cloud clipboard", "webservice", "REST"],
   "version" :           "0.1.0",
   "author" :            "Philipp Geschke <electricdynamite.apps@gmail.com>",
+  "dependencies": {
+    "querystring": "0.1.0"
+  },
   "repository" :        { "type" : "git", 
                           "url" : "http://git://github.com/ElectricDynamite/pastyclient-node.git" },
   "bugs" :              { "mail" : "electricdynamite.apps@gmail.com",
-                          "url" : "http://github.com/ElectricDynamite/pastyclient-node/issues" }
+                          "url" : "http://github.com/ElectricDynamite/pastyclient-node/issues" },
   "main" :              "./lib/index",
   "licenses" :          [ { "type" : "Apache License, Version 2.0",
                             "url" : "http://www.apache.org/licenses/LICENSE-2.0" } ]
