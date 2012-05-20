@@ -8,7 +8,7 @@
     "querystring": "0.1.0"
   },
   "repository" :        { "type" : "git", 
-                          "url" : "http://git://github.com/ElectricDynamite/pastyclient-node.git" },
+                          "url" : "git://github.com/ElectricDynamite/pastyclient-node.git" },
   "bugs" :              { "mail" : "electricdynamite.apps@gmail.com",
                           "url" : "http://github.com/ElectricDynamite/pastyclient-node/issues" },
   "main" :              "./lib/index",
