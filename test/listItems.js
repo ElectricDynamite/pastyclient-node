@@ -1,6 +1,6 @@
 
 
-var client = require('../lib/index.js').pastyclient('mario.blafaselblub.net', 8888);
+var client = require('../lib/index.js').pastyclient('localhost', 8888);
 var token = '';
 
 client.listItems(token, function(E,items) {
