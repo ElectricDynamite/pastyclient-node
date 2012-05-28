@@ -19,7 +19,7 @@ Installation
 
 How to use
 ----------
-** NOTE: THIS DOCUMENTATION USES VERSION 0.2.0 OF pastyclient-node WHICH WILL BE RELEASED IN A FEW DAYS! HENCE NOTHING OF THIS WILL WORK WITH THE MODULE YOU CAN OBTAIN VIA NPM!
+**NOTE: THIS DOCUMENTATION USES VERSION 0.2.0 OF pastyclient-node WHICH WILL BE RELEASED IN A FEW DAYS! HENCE NOTHING OF THIS WILL WORK WITH THE MODULE YOU CAN OBTAIN VIA NPM!**
 
 pastyclient-node is a small library that will handle the REST calls to the [Pasty REST API server](https://github.com/ElectricDynamite/pasty-server) for you.
 Currently it does not offer any option to store user credentials withing the client library, so you need to store these within your application and provide
