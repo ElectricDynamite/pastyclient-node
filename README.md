@@ -30,7 +30,8 @@ While pastyclient-node will take care of the REST calls, you should still be fam
 ### General
 You always need to create your pastyclient by requiring the module and calling the pastyclient factory `pastyclient()`:
 ```js
-var client = require('pastyclient-node').pastyclient('api.pastyapp.org', 4444, {"ssl": true});
+var client = require('pastyclient-node').pastyclient('api.pastyapp.org', 4444, {
+    "ssl": true });
 ``` 
 The factory take three arguments. The first argument is the REST servers `hostname`, the second is the REST servers TCP `port`.
 The third argument is an `options` object, that currently takes any of the following values:  
