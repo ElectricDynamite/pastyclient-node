@@ -112,7 +112,7 @@ client.deleteItem(itemId, username, password, function(E, success) {
  does currently not support OAuth, there is a miserable work around to keep from
  sending the users credentials over the Internet all the time, and that is user tokens.
 
- You can request a user token using the `requestToken` function, and then use this
+ You can request a user token using the `requestToken()` function, and then use this
  token instead of username / password in future clipboard calls. To do that, you 
  simply replace the username and the password parameter with a single string parameter
  containing the token.
@@ -161,6 +161,7 @@ client.requestToken(username, password, function(E, tokenInfo) {
   * updateUserPassword()
   * deleteUser()
   * checkTokenValidity()
+
 
  They are pretty straight forward and fairly documented.
  
