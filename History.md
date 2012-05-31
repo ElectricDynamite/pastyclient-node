@@ -1,9 +1,12 @@
 pastyclient-node history
 ========================
 
+Version 0.3.0
+-------------
+
 Version 0.2.0
 -------------
-  * Switched to API Version 0.2.0
+  * Switched to API Version 2
   * Normalized API
   * Allowing the user of username/password instead of token
   * Supporting TLS now
