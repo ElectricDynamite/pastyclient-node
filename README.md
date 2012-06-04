@@ -39,7 +39,7 @@ var client = require('pastyclient-node').pastyclient(
   * "ssl": A boolean indicating whether or not the server will talk SSL/TLS.
   * "apiKey": If you have an API key for the REST server (in order to create users) you can specify it here as a string.
 
- After creating receiving your configured client from the factory, you can start using it. Keep your Pasty login data at hand.
+ After receiving your configured client from the factory, you can start using it. Keep your Pasty login data at hand.
 
 ### Getting the user clipboard
 
