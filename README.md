@@ -34,7 +34,7 @@ var client = require('pastyclient-node').pastyclient(
   , 443
   , { "ssl": true });
 ``` 
- The factory take three arguments. The first argument is the REST servers `hostname`, the second is the REST servers TCP `port`.  
+ The factory takes three arguments. The first argument is the REST servers `hostname`, the second is the REST servers TCP `port`.  
  The third argument is an `options` object, that currently takes any of the following values:  
   * "ssl": A boolean indicating whether or not the server will talk SSL/TLS.
   * "apiKey": If you have an API key for the REST server (in order to create users) you can specify it here as a string.
