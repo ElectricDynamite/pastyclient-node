@@ -4,6 +4,10 @@ pastyclient-node history
 Version 0.3.0
 -------------
 
+Version 0.2.2
+-------------
+  * Bugfix: Removed console.dir() from deleteItem()
+
 Version 0.2.1
 -------------
   * Bugfix: APIv1 was still used in case of some errors
