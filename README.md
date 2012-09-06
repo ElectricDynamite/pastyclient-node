@@ -21,7 +21,7 @@ How to use
 ----------
 
  pastyclient-node is a small library that will handle the REST calls to the [Pasty REST API server](https://github.com/ElectricDynamite/pasty-server) for you.
- Currently it does not offer any option to store user credentials withing the client library, so you need to store these within your application and provide
+ Currently it does not offer any option to store user credentials within the client library, so you need to store these within your application and provide
  them upon each REST call.  
 
  While pastyclient-node will take care of the REST calls, you should still be familiar with [Pasty's REST API](https://github.com/ElectricDynamite/pasty-server/wiki/REST-API).
@@ -153,7 +153,7 @@ client.requestToken(username, password, function(E, tokenInfo) {
 ### More
  There is more that you can do with the library and Pasty. Please have a look 
  into the source code, for the following function calls:
-  
+
   * getServerVersion()
   * getItem()
   * getUser()
@@ -162,9 +162,8 @@ client.requestToken(username, password, function(E, tokenInfo) {
   * deleteUser()
   * checkTokenValidity()
 
-
  They are pretty straight forward and fairly documented.
- 
+
 
 Contact
 -------
