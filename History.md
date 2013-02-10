@@ -1,8 +1,10 @@
 pastyclient-node history
 ========================
 
-Version 0.3.0
--------------
+Current master
+--------------
+  * Fixed routes that had a trailing / but shouldn't have
+  * Fixed handling of misbehaving server with 4xx and 5xx errors
 
 Version 0.2.2
 -------------
