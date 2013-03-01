@@ -5,7 +5,7 @@ pastyclient-node
 
  More information at http://www.pastyapp.org/  
 
-![Pasty Logo](http://pastyapp.org/images/Pasty_256x256.png)
+![Pasty Logo](http://pastyapp.org/images/logo_with_cloud_20130228_256x256.png)
 
 Installation
 ------------
