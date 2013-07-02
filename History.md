@@ -3,6 +3,10 @@ pastyclient-node history
 
 Current master
 --------------
+  * Fixed userAgent by moving the variable out of the constructor
+
+Version 0.2.3
+-------------
   * Fixed routes that had a trailing / but shouldn't have
   * Fixed handling of misbehaving server with 4xx and 5xx errors
 
