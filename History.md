@@ -1,6 +1,10 @@
 pastyclient-node history
 ========================
 
+Version 0.2.4
+-------------
+  * Fixed userAgent by moving the variable out of the constructor
+
 Version 0.2.3
 -------------
   * Fixed routes that had a trailing / but shouldn't have
