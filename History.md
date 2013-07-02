@@ -1,6 +1,11 @@
 pastyclient-node history
 ========================
 
+Version 0.2.3
+-------------
+  * Fixed routes that had a trailing / but shouldn't have
+  * Fixed handling of misbehaving server with 4xx and 5xx errors
+
 Version 0.2.2
 -------------
   * Bugfix: Removed console.dir() from deleteItem()
@@ -11,7 +16,7 @@ Version 0.2.1
 
 Version 0.2.0
 -------------
-  * Switched to API Version 0.2.0
+  * Switched to API Version 2
   * Normalized API
   * Allowing the user of username/password instead of token
   * Supporting TLS now

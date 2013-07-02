@@ -5,7 +5,7 @@ pastyclient-node
 
  More information at http://www.pastyapp.org/  
 
-![Pasty Logo](http://pastyapp.org/images/Pasty_256x256.png)
+![Pasty Logo](http://pastyapp.org/images/logo_with_cloud_20130228_256x256.png)
 
 Installation
 ------------
@@ -21,7 +21,7 @@ How to use
 ----------
 
  pastyclient-node is a small library that will handle the REST calls to the [Pasty REST API server](https://github.com/ElectricDynamite/pasty-server) for you.
- Currently it does not offer any option to store user credentials withing the client library, so you need to store these within your application and provide
+ Currently it does not offer any option to store user credentials within the client library, so you need to store these within your application and provide
  them upon each REST call.  
 
  While pastyclient-node will take care of the REST calls, you should still be familiar with [Pasty's REST API](https://github.com/ElectricDynamite/pasty-server/wiki/REST-API).
@@ -34,12 +34,12 @@ var client = require('pastyclient-node').pastyclient(
   , 443
   , { "ssl": true });
 ``` 
- The factory take three arguments. The first argument is the REST servers `hostname`, the second is the REST servers TCP `port`.  
+ The factory takes three arguments. The first argument is the REST servers `hostname`, the second is the REST servers TCP `port`.  
  The third argument is an `options` object, that currently takes any of the following values:  
   * "ssl": A boolean indicating whether or not the server will talk SSL/TLS.
   * "apiKey": If you have an API key for the REST server (in order to create users) you can specify it here as a string.
 
- After creating receiving your configured client from the factory, you can start using it. Keep your Pasty login data at hand.
+ After receiving your configured client from the factory, you can start using it. Keep your Pasty login data at hand.
 
 ### Getting the user clipboard
 
@@ -153,7 +153,7 @@ client.requestToken(username, password, function(E, tokenInfo) {
 ### More
  There is more that you can do with the library and Pasty. Please have a look 
  into the source code, for the following function calls:
-  
+
   * getServerVersion()
   * getItem()
   * getUser()
@@ -162,9 +162,8 @@ client.requestToken(username, password, function(E, tokenInfo) {
   * deleteUser()
   * checkTokenValidity()
 
-
  They are pretty straight forward and fairly documented.
- 
+
 
 Contact
 -------
@@ -173,16 +172,16 @@ Contact
 
 License
 -------
- Copyright 2012 Philipp Geschke
+    Copyright 2012 Philipp Geschke
+    
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    
+    http://www.apache.org/licenses/LICENSE-2.0
 
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
- 
- http://www.apache.org/licenses/LICENSE-2.0
-
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
