@@ -1,8 +1,8 @@
 pastyclient-node history
 ========================
 
-Current master
---------------
+Version 0.2.4
+-------------
   * Fixed userAgent by moving the variable out of the constructor
 
 Version 0.2.3
