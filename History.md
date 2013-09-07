@@ -1,6 +1,11 @@
 pastyclient-node history
 ========================
 
+Current master
+--------------
+  * Added support for /v2.1/server/user/available
+  * Fixed bug where error messages were not correctly interpreted and overwritten
+
 Version 0.2.4
 -------------
   * Fixed userAgent by moving the variable out of the constructor
