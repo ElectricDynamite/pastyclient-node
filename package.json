@@ -2,7 +2,7 @@
   "name" :              "pastyclient-node",
   "description" :       "A Pasty (http://www.pastyapp.org/) client library for node.js",
   "keywords" :          ["Pasty", "clipboard", "cloud clipboard", "webservice", "REST"],
-  "version" :           "0.2.4",
+  "version" :           "0.2.5",
   "author" :            "Philipp Geschke <electricdynamite.apps@gmail.com>",
   "repository" :        { "type" : "git", 
                           "url" : "git://github.com/ElectricDynamite/pastyclient-node.git" },

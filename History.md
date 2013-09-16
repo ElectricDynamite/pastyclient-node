@@ -1,6 +1,11 @@
 pastyclient-node history
 ========================
 
+
+Version 0.2.5
+-------------
+  * Fixed bug where error messages were not correctly interpreted and overwritten
+
 Version 0.2.4
 -------------
   * Fixed userAgent by moving the variable out of the constructor
