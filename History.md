@@ -1,9 +1,13 @@
 pastyclient-node history
 ========================
 
-Current master
+Version 0.3.0
 --------------
+  * Switched to Pasty API version 2.1.0
   * Added support for /v2.1/server/user/available
+
+Version 0.2.5
+-------------
   * Fixed bug where error messages were not correctly interpreted and overwritten
 
 Version 0.2.4
