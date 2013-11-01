@@ -1,6 +1,11 @@
 pastyclient-node history
 ========================
 
+
+Current master
+--------------
+  * Fixed scope
+
 Version 0.3.0
 --------------
   * Switched to Pasty API version 2.1.0
